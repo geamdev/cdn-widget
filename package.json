@@ -1,0 +1,22 @@
+{
+  "name": "intelnexo-chat-widget-cdn",
+  "version": "1.0.0",
+  "description": "Intelnexo Chat Widget CDN",
+  "main": "intelnexo-chat-widget.js",
+  "scripts": {
+    "build": "echo 'No build step required'",
+    "start": "echo 'Static files served by Vercel'"
+  },
+  "keywords": [
+    "widget",
+    "chat",
+    "ai",
+    "cdn"
+  ],
+  "author": "Intelnexo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geamdev/cdn-widget.git"
+  }
+}
