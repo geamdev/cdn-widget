@@ -1,19 +1,9 @@
 {
   "version": 2,
-  "builds": [
+  "rewrites": [
     {
-      "src": "intelnexo-chat-widget.js",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/intelnexo-chat-widget.js",
-      "dest": "/intelnexo-chat-widget.js"
-    },
-    {
-      "src": "/widgets/chat.js",
-      "dest": "/intelnexo-chat-widget.js"
+      "source": "/widgets/chat.js",
+      "destination": "/intelnexo-chat-widget.js"
     }
   ],
   "headers": [
